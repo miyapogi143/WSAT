@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Proffesional Networking Platform</h1>
+<h2> Create Profile </h2>
+<form> 
+<label for="fname">Last Name:</label>
+<input type="text" id="fname" name= "fname" placeholder="Last Name">
+<div>
+<br>
+<div>
+<label for="lname">First Name:</label>
+<input type="text" id="lname" name= "lname" placeholder="First Name">
+<div>
+<br>
+<div>
+<label for="lname">Middle Name:</label>
+<input type="text" id="lname" name= "lname" placeholder="Middle Name">
+<div>
+
+<br>
+
+<div>
+<label for="lname">Suffix:</label>
+<select name="Suffix"id="count">
+<option value="None">None</option>
+<option value="Jr.">Jr.</option>
+<option value="Sr.">Sr.</option>
+<option value="I">I</option>
+<option value="II">II</option>
+<option value="III">III</option>
+<option value="IV">IV</option>
+<option value="V">V</option>
+<option value="VI">VI</option>
+<option value="VII">VII</option>
+<option value="VIII">VIII</option>
+<option value="IX">IX</option>
+<option value="XI">XI</option>
+<option value="XII">XII</option>
+<option value="XIII">XIII</option>
+<option value="XIV">XIV</option>
+<option value="XV">XV</option>
+<option value="XVI">VI</option>
+<br>
+
+</select>
+
+<div>
+
+<br>
+
+<div>
+
+<h2>Profile Photo</h2>
+<p2>Please upload a recent profile photo (JPG, PNG, or JPEG format only):</p2>
+<div>
+<br>
+<div>
+<input type="file" id="file"/>
+
+<br>
+
+<h2>Personal Statement</h2>
+<p2>Please provide a brief personal statement about yourself (up to 250 words):
+<br>
+<textarea name="comment" rows="10" cols="70"></textarea>
+<br>
+<p2>Word limit:250 words (Maximum: 1000 characters)
+<div>
+<br>
+<div>
+<p1>Gender:</p1>
+
+<form action ""method="">
+<br>
+<input type= "radio" name= "maleorfemale1" value="">
+<p1>Male</p1>
+<input type= "radio" name= "maleorfemale2" value="">
+<p1>Female</p1>
+<div>
+<br>
+<div>
+<label for="lname">Civil Status:</label>
+<select name="Status"id="count">
+<option value="Single">Single</option>
+<option value="Married.">Married.</option>
+<option value="Divorced">Divorced.</option>
+<option value="Widdowed">Widdowed.</option>
+
+</select>
+<div>
+<br>
+<div>
+<label for="lname">Religion:</label>
+<select name="Religion"id="count">
+<option value="Christianity">Christianity</option>
+<option value="Islam">Islam</option>
+<option value="Sikhism">Sikhism</option>
+<option value="Hinduism">Haha'i</option>
+<option value="Jainism">Jainism</option>
+<option value="None (Atheist)">None (Atheist)</option>
+
+</select>
+
+<h2>Summary of Work Experience (Start from most recent)</h2>
+
+<table border="1">
+
+<form>
+<tr>
+<th colspan="1"><h4>Designation/Appointment</h4></th>
+<th colspan="1"><h4>Company/Institution</h4></th>
+<th colspan="1"><h4>Location</h4></th>
+<th colspan="1"><h4>Inclusive Years</h4></th>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</form>
+</table>
+
+
+<h2>Educational Background (Start from most recent)</h2>
+
+<table border="1">
+
+<form>
+<tr>
+<th colspan="1"><h4>Degree</h4></th>
+<th colspan="1"><h4>Specialization</h4></th>
+<th colspan="1"><h4>School</h4></th>
+<th colspan="1"><h4>Year Graduated</h4></th>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</form>
+</table>
+
+<h2>Certifications Aquired</h2>
+
+<table border="1">
+
+<form>
+<tr>
+<th colspan="1"><h4>Certification Name</h4></th>
+<th colspan="1"><h4>Issuing organization</h4></th>
+<th colspan="1"><h4>Year Acquired</h4></th>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</form>
+</table>
+
+<h2>General Skills (rate Yourself)</h2>
+<p2>Please Rate yourself on the following general skills (1:Novice, 2:basic, 3:intermidiate, 4:advanced,5:expert);
+
+<table border="1-5)">
+
+<form>
+<tr>
+<th colspan="1"><h4>Skill</h4></th>
+<th colspan="1"><h4>Rating 1-5</h4></th>
+</tr>
+<tr>
+<td><label>Communication</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Problem Solving</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Teamwork</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Adaptability</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Creativity</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Leadership</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Time Management</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Emotional Intelligence</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Critical Thinking</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Conflict resolution</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Decision Making</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Networking</label></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td><label>Negotiation</label></td>
+<td><input type="text"></td>
+</tr>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+
+
+
+</body>
+</html>
